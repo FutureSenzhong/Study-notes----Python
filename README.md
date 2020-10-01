@@ -1,1 +1,1 @@
-# Study notes-----python
+# Study notes----Python
