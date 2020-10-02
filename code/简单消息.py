@@ -151,3 +151,20 @@ cars = ['bmw', 'audi', 'toyota', 'subaru']
 n_cars = sorted(cars)
 print(cars)
 print(n_cars)
+# 反转列表
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+n_cars = reversed(cars)
+print(next(n_cars))
+print(next(n_cars))
+print(next(n_cars))
+print(next(n_cars))
+print(cars)
+cars.reverse()
+print(cars)
+# for遍历列表
+magicians = ['alice', 'david', 'carolina']
+for magician in magicians:
+    print(magician.title() + ", that was a great trick!")
+    print("I can't wait to see your next trick, " + magician.title() + ".\n")
+
+
