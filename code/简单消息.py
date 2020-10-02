@@ -190,9 +190,14 @@ print(type(l))
 # print(max(l))
 # print(min(l))
 # print(sum(l))
-# 使用切片来操作列表的一部分, 切片会创建一个新的列表
-players = ['charles', 'martina', 'michael', 'florence', 'eli']
-n = players[0:3]
+# 使用切片来操作列表的一部分, 切片会创建一个新的列表, 对于嵌套列表只会拷贝子列表的内存地址(浅拷贝)
+players = ['charles', 'martina', 'michael', 'florence', 'eli', [1, 3, "ss"]]
+print(id(players[-1]))
+n = players[:]
 print(players, id(players))
-n.append("三木先生")
+# n.append("三木先生")
+n[-1].append("三木先生")
+print(players, id(players))
 print(n, id(n))
+print(id(n[-1]))
+
