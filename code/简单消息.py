@@ -167,6 +167,13 @@ for magician in magicians:
     print(magician.title() + ", that was a great trick!")
     print("I can't wait to see your next trick, " + magician.title() + ".\n")
 
-#  range() 让你能够轻松地生成一系列的数字
+#  range() 让你能够轻松地生成一系列的数字，取值范围是避开区间取值
 for value in range(1, 5):
     print(value)
+    # 1
+    # 2
+    # 3
+    # 4
+
+l = [i ** 2 for i in range(1, 11)]
+print(l)
