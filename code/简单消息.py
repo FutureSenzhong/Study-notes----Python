@@ -201,3 +201,14 @@ print(players, id(players))
 print(n, id(n))
 print(id(n[-1]))
 
+# if
+requested_toppings = ['mushrooms', 'extra cheese']
+if 'mushrooms' in requested_toppings:
+    print("Adding mushrooms.")
+elif 'pepperoni' in requested_toppings:
+    print("Adding pepperoni.")
+elif 'extra cheese' in requested_toppings:
+    print("Adding extra cheese.")
+
+print("\nFinished making your pizza!")
+# 如果你只想执行一个代码块，就使用 if-elif-else 结构；如果要运行多个代码块，就使用一系列独立的 if 语句。
