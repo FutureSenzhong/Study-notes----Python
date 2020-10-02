@@ -51,3 +51,6 @@ print(8/1)
 m = 404
 msg = "我最喜欢的数字是：" + str(m)
 print(msg)
+# Python 之禅： 在 Python 终端会话中执行命令 import this ，并粗略地浏览一下其他的指导原则。
+# 简单就是最好的
+# 行之有效就是最完美的
