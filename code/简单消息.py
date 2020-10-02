@@ -84,3 +84,8 @@ print(names[2] + '是一个女朋友')
 # 根据该列表打印一系列有关这些通勤方式的宣言，如 “I would like to own a Honda motorcycle”
 types = ['走路', '骑自行车', '坐公交车', '打车', '自驾探险者']
 print('我更喜欢' + types[-1] + '去上班。')
+# 通过下表修改列表的元素
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+motorcycles[0] = 'ducati'
+print(motorcycles)
