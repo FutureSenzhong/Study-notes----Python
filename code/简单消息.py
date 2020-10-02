@@ -98,3 +98,23 @@ print(motorcycles)
 motorcycles = ['honda', 'yamaha', 'suzuki']
 motorcycles.insert(0, 'ducati')
 print(motorcycles)
+# 通过下标删除元素
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+del motorcycles[1]
+print(motorcycles)
+# 使用pop方法删除元素，并返回该元素可以试用变量保存起来
+motorcycles = ['honda', 'yamaha', 'suzuki']
+print(motorcycles)
+popped_motorcycle = motorcycles.pop()
+print(motorcycles)
+print(popped_motorcycle)
+# 如果你不确定该使用 del 语句还是 pop() 方法，
+# 下面是一个简单的判断标准：如果你要从列表中删除一个元素，且不再以任何方式使用它，就使用 del 语句；
+# 如果你要在删除元素后还能继续使用它，就使用方法 pop() 。
+# 使用remove删除元素
+motorcycles = ['honda', 'yamaha', 'suzuki', 'ducati', 'ducati', 'ducati']
+print(motorcycles)
+motorcycles.remove('ducati')
+print(motorcycles)
+# 注意方法 remove() 只删除第一个指定的值。如果要删除的值可能在列表中出现多次，就需要使用循环来判断是否删除了所有这样的值。
