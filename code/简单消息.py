@@ -167,4 +167,6 @@ for magician in magicians:
     print(magician.title() + ", that was a great trick!")
     print("I can't wait to see your next trick, " + magician.title() + ".\n")
 
-
+#  range() 让你能够轻松地生成一系列的数字
+for value in range(1, 5):
+    print(value)
