@@ -54,3 +54,8 @@ print(msg)
 # Python 之禅： 在 Python 终端会话中执行命令 import this ，并粗略地浏览一下其他的指导原则。
 # 简单就是最好的
 # 行之有效就是最完美的
+# 列表
+bicycles = ['trek', 'cannondale', 'redline', 'specialized']
+print(bicycles)
+# 下标访问列表
+print(bicycles[0])
