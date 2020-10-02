@@ -179,3 +179,20 @@ l = [i ** 2 for i in range(1, 11)]
 print(l)
 
 # 你首先应该考虑的是，编写清晰易懂且能完成所需功能的代码；等到审核代码时，再考虑采用更高效的方法
+
+# for i in range(1, 1000001):
+#     print(i)
+
+l = (i for i in range(1, 80000001))
+print(type(l))
+# print(l)
+# l = list(l)
+# print(max(l))
+# print(min(l))
+# print(sum(l))
+# 使用切片来操作列表的一部分, 切片会创建一个新的列表
+players = ['charles', 'martina', 'michael', 'florence', 'eli']
+n = players[0:3]
+print(players, id(players))
+n.append("三木先生")
+print(n, id(n))
