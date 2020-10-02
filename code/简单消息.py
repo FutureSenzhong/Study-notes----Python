@@ -94,3 +94,7 @@ motorcycles = ['honda', 'yamaha', 'suzuki']
 print(motorcycles)
 motorcycles.append('ducati')
 print(motorcycles)
+# 在列表中通过下表插入元素
+motorcycles = ['honda', 'yamaha', 'suzuki']
+motorcycles.insert(0, 'ducati')
+print(motorcycles)
