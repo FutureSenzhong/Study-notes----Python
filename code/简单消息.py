@@ -268,3 +268,10 @@ for k, v in people.items():
 # name:三木先生
 # age:27
 # pro:程序员
+
+for k in people.keys():
+    print(str(k))
+
+# name
+# age
+# pro
