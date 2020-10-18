@@ -252,3 +252,8 @@ print(people)
 people['money'] = 0
 print('三木先生赌输了，现在一无所有，存款为：' + str(people['money']))
 # 三木先生赌输了，现在一无所有，存款为：0
+
+# 对于字典中不再需要的信息，可使用 del 语句将相应的键 — 值对彻底删除。使用 del 语句时，必须指定字典名和要删除的键。
+del people['money']
+print(people)
+# {'name': '三木先生', 'age': 27, 'pro': '程序员'}
