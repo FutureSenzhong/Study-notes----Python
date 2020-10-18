@@ -246,3 +246,9 @@ print(people['pro'])
 people['money'] = 100000000
 
 print(people)
+# {'name': '三木先生', 'age': 27, 'pro': '程序员', 'money': 100000000}
+
+# 修改字典的值
+people['money'] = 0
+print('三木先生赌输了，现在一无所有，存款为：' + str(people['money']))
+# 三木先生赌输了，现在一无所有，存款为：0
