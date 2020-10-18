@@ -257,3 +257,14 @@ print('三木先生赌输了，现在一无所有，存款为：' + str(people['
 del people['money']
 print(people)
 # {'name': '三木先生', 'age': 27, 'pro': '程序员'}
+
+# 一个 Python 字典可能只包含几个键 — 值对，也可能包含数百万个键 — 值对。
+# 鉴于字典可能包含大量的数据， Python 支持对字典遍历。
+# 字典可用于以各种方式存储信息，因此有多种遍历字典的方式：可遍历字典的所有键 — 值对、键或值。
+
+for k, v in people.items():
+    print(str(k) + ':' + str(v))
+
+# name:三木先生
+# age:27
+# pro:程序员
