@@ -282,3 +282,22 @@ for v in people.values():
 # 三木先生
 # 27
 # 程序员
+
+# 遍历字典时，会默认遍历所有的键，因此，如果将上述代码中的 for v in people.keys():
+# 替换为 for v in people: ，输出将不变。
+# 如果显式地使用方法 keys() 可让代码更容易理解，你可以选择这样做，但如果你愿意，也可省略它
+
+# 字典嵌套
+love = ['coding', '散步', '撩妹']
+people.update({'love': love})
+print(people)
+# {
+#     'name': '三木先生',
+#     'age': 27,
+#     'pro': '程序员',
+#     'love': [
+#         'coding',
+#         '散步',
+#         '撩妹'
+#     ]
+# }
