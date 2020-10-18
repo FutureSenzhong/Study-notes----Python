@@ -230,6 +230,15 @@ print(d)
 people = {
     'name': '三木先生',
     'age': 27,
-    'profession': '程序员',
+    'pro': '程序员',
 }
+
+# 通过键取值
+print(people['name'])
+print(people['age'])
+print(people['pro'])
+
+# 三木先生
+# 27
+# 程序员
 
