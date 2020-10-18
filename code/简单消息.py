@@ -301,3 +301,30 @@ print(people)
 #         '撩妹'
 #     ]
 # }
+
+
+# 定义函数
+def hello(p_name='三木先生'):
+    print('hello:' + p_name)
+
+
+hello()
+hello(p_name='马云')
+
+# hello:三木先生
+# hello:马云
+
+
+def hello2(p_name='三木先生'):
+    return 'hello:' + p_name
+
+
+s1 = hello2()
+s2 = hello2(p_name='马云')
+print(s1)
+print(s2)
+
+# hello:三木先生
+# hello:马云
+
+
